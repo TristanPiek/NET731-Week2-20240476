@@ -65,24 +65,6 @@ systems.
 The NSG rules were configured to allow secure web traffic while restricting unnecessary inbound access to the network.
 
 
-## Screenshots
-
-### Resource Group
-![Resource Group](screenshots/resource-group-overview.png)
-
-### Virtual Network
-![VNet](screenshots/virtual-network-overview.png)
-
-### Subnets
-![Subnets](screenshots/subnets-overview.png)
-
-### NSG Rules
-![NSG](screenshots/nsg-overview.png)
-
-### NSG Attached
-![NSG Attached](screenshots/nsg-attached.png)
-
-
 
 
 
