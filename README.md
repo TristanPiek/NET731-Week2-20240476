@@ -66,6 +66,23 @@ The NSG rules were configured to allow secure web traffic while restricting unne
 
 
 
+## Screenshots
+
+### Resource Group
+![Resource Group](screenshots/resource-group.png)
+
+### Virtual Network
+![VNet](screenshots/vnet.png)
+
+### Subnets
+![Subnets](screenshots/subnets.png)
+
+### NSG Rules
+![NSG](screenshots/nsg.png)
+
+### NSG Attached
+![NSG Attached](screenshots/nsg-attached.png)
+
 
 
 
