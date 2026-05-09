@@ -40,16 +40,21 @@ expansion.
 ## Subnet Design
 
 
-| Subnet Name | Address Range | Purpose |
-|---|---|---|
-| Public-Subnet | 10.0.1.0/24 | Hosts public-facing services |
-| Private-Subnet | 10.0.2.0/24 | Hosts internal backend systems |
+| Subnet Name | Address Range | Why I Chose these |
+
+
+Public-Subnet   22.0.1.0/24   For hosting public services 
+
+
+Private-Subnet   22.0.2.0/24   For hosting private backend systems  
+
 
 
 ### Explanation for these choices
 
-Separate subnets were created to improve security and network organisation by isolating public resources from internal
-systems.
+I created two different subnets to seperate public resources from interfereing with private resources, this will in turn
+improve network security and ease of use.
+
 
 
 
@@ -59,29 +64,31 @@ systems.
 |---|---|---|---|---|
 | Enable-HTTP | 80 | TCP | Allow | Allows website traffic |
 | Enable-HTTPS | 443 | TCP | Allow | Allows secure web traffic |
-| Deny-Inbound | * | Any | Deny | Blocks unauthorized inbound traffic |
-
-### NSG Justification
-The NSG rules were configured to allow secure web traffic while restricting unnecessary inbound access to the network.
+| Deny-Inbound | * | Any | Deny | Blocks inbound traffic |
 
 
+### Explanation for these NSG's
 
-## Screenshots
+The NSG rules were created to restrict all unauthorized inbound traffic and to secure website traffic to the networkon.
+
+
+
+## Screenshots Taken
 
 ### Resource Group
-![Resource Group](screenshots/resource-group.png)
+![Resource Group](resource-group.png)
 
 ### Virtual Network
-![VNet](screenshots/vnet.png)
+![VNet](vnet.png)
 
 ### Subnets
-![Subnets](screenshots/subnets.png)
+![Subnets](subnets.png)
 
 ### NSG Rules
-![NSG](screenshots/nsg.png)
+![NSG](nsg.png)
 
 ### NSG Attached
-![NSG Attached](screenshots/nsg-attached.png)
+![NSG Attached](nsg-attached.png)
 
 
 
