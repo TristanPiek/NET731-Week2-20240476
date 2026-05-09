@@ -9,7 +9,6 @@ Tristan Piek
 
 
 
-
 ## TechBridge Solutions Scenario
 
 a Small Business called TechBridge Solutions asked me to design and implement a cloud network architecture. I used Microsoft
