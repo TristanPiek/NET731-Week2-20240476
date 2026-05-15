@@ -75,19 +75,19 @@ The NSG rules were created to restrict all unauthorized inbound traffic and to s
 ## Screenshots Taken
 
 ### Resource Group
-![Resource Group](resource-group.png)
+![Resource Group](Screenshot/resource-group.png)
 
 ### Virtual Network
-![VNet](vnet.png)
+![VNet](Screenshot/vnet.png)
 
 ### Subnets
-![Subnets](subnets.png)
+![Subnets](Screenshot/subnets.png)
 
 ### NSG Rules
-![NSG](nsg.png)
+![NSG](Screenshot/nsg.png)
 
 ### NSG Attached
-![NSG Attached](nsg-attached.png)
+![NSG Attached](Screenshot/nsg-attached.png)
 
 
 
